@@ -28,9 +28,27 @@ ol {
 button {
   cursor: pointer;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 /* #endregion global */
 
 /* #region header */
+.header-page {
+  width: 1158px;
+  padding: 0 15px 0 15px;
+}
+
 .header-page .container {
   justify-content: space-between;
   display: flex;
@@ -70,6 +88,7 @@ button {
   text-transform: uppercase;
   color: #2e2f42;
   padding-right: 76px;
+  margin-right: 76px;
 }
 
 .nav-list {
@@ -138,18 +157,21 @@ button {
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
+  padding: 188px 0 188px;
+  
 }
 
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
-  padding-top: 184.15px;
-  padding-right: 471.5px;
-  padding-left: 472.5px;
+  color: #fff;
+  max-width: 496px;
+  margin-left: 472.50px;
+  margin-right: 471.50px;
+    /* 184.15px 471.5px 295.85px  */
 }
 
 .hero-btn {
@@ -164,6 +186,9 @@ button {
   margin-right: 636px;
   margin-left: 635px;
   margin-bottom: 188px;
+  display: block;
+  min-width: 169px;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -175,18 +200,15 @@ button {
 /* #endregion section hero */
 
 /* #region section Features */
+  
 .features {
   display: flex;
   justify-content: center;
   align-items: baseline;
+  padding: 120px 0 120px;
 }
 
 .features-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .features-list {
@@ -195,10 +217,9 @@ button {
   align-content: center;
   justify-content: space-between;
   flex-direction: row;
-  gap: 8px;
+  gap: 24px;
   width: 1128px;
   height: 104px;
-  margin: 120px 56px 120px 56px;
 }
 
 .features-list-li {
@@ -217,6 +238,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .features-title-txt {
   font-weight: 400;
@@ -269,6 +291,10 @@ button {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
+}
+
+.ourteam-img {
+  display: block;
 }
 
 .ourteam-title-item {
@@ -344,6 +370,7 @@ button {
   width: 1440px;
   height: 312px;
   background-color: #2e2f42;
+  padding: 100px 0 100px
 }
 
 .container {
@@ -357,10 +384,9 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 100px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   padding-left: 156px;
-  display: block;
+  display: inline-block;
 }
 
 .logostyle-footer {
