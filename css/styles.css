@@ -28,6 +28,9 @@ ol {
 button {
   cursor: pointer;
 }
+img {
+  display: block;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -47,16 +50,16 @@ button {
 .header-page {
   width: 1158px;
   padding: 0 15px 0 15px;
+  border-bottom: 1px solid #e7e9fc
 }
 
 .header-page .container {
   justify-content: space-between;
   display: flex;
-  padding-left: 156px;
-  padding-right: 156px;
-  width: 1440px;
+  width: 1158px;
   height: 72px;
-  border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .container {
@@ -78,6 +81,7 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+  margin-right: 76px;
 }
 
 .logostyle {
@@ -88,7 +92,6 @@ button {
   text-transform: uppercase;
   color: #2e2f42;
   padding-right: 76px;
-  margin-right: 76px;
 }
 
 .nav-list {
