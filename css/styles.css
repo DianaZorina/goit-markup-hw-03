@@ -32,18 +32,18 @@ img {
   display: block;
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* #endregion global */
 
 /* #region header */
@@ -51,20 +51,18 @@ img {
   width: 1158px;
   padding: 0 15px 0 15px;
   border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;
 }
 
 .header-page .container {
   justify-content: space-between;
   display: flex;
   width: 1158px;
-  height: 72px;
+  margin: 0 auto;
   padding: 0 15px 0 15px;
-  
 }
 
 .container {
- }
+}
 
 .nav-page {
   display: flex;
@@ -162,7 +160,6 @@ img {
   height: 600px;
   background-color: #2e2f42;
   padding: 188px 0 188px;
-  
 }
 
 .hero-title {
@@ -173,9 +170,9 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin-left: 472.50px;
-  margin-right: 471.50px;
-    /* 184.15px 471.5px 295.85px  */
+  margin-left: 472.5px;
+  margin-right: 471.5px;
+  /* 184.15px 471.5px 295.85px  */
 }
 
 .hero-btn {
@@ -204,7 +201,7 @@ img {
 /* #endregion section hero */
 
 /* #region section Features */
-  
+
 .features {
   display: flex;
   justify-content: center;
@@ -374,7 +371,7 @@ img {
   width: 1440px;
   height: 312px;
   background-color: #2e2f42;
-  padding: 100px 0 100px
+  padding: 100px 0 100px;
 }
 
 .container {
