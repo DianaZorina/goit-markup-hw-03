@@ -59,11 +59,11 @@ img {
   width: 1158px;
   height: 72px;
   padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 
 .container {
-  margin: 0 auto;
-}
+ }
 
 .nav-page {
   display: flex;
