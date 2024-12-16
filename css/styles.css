@@ -50,7 +50,7 @@ img {
 .header-page {
   width: 1158px;
   padding: 0 15px 0 15px;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-page .container {
@@ -58,11 +58,11 @@ img {
   display: flex;
   width: 1158px;
   height: 72px;
-  margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 
 .container {
+  margin: 0 auto;
 }
 
 .nav-page {
