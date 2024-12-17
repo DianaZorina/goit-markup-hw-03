@@ -334,6 +334,11 @@ img {
   padding: 120px 0 120px 0;
 }
 
+.ourportfolio .conteiner {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
+
 .ourportfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -343,6 +348,7 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   padding-bottom: 60px;
+  margin-bottom: 72px;
 }
 
 .portfolio-ul {
@@ -371,10 +377,10 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
-.ourteam-title-item .container {
+.ourportfolio-title-item .container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
