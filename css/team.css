@@ -1,5 +1,6 @@
 .team {
   background: #f4f4fd;
+  padding: 120px 0 120px;
 }
 .team-title {
   font-family: 'Roboto', sans-serif;
@@ -9,13 +10,27 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
 }
 .team-item {
-  background: #fff;
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: #ffffff;
 }
 .team-photo {
+  display: block;
 }
 .team-name {
   font-family: 'Roboto', sans-serif;
@@ -25,6 +40,8 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .team-job {
   font-family: 'Roboto', sans-serif;
@@ -34,4 +51,5 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 32px;
 }

@@ -1,9 +1,21 @@
 .features {
   background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 120px 0;
 }
 .features-title {
+  display: none;
+  text-align: center;
+  margin-bottom: 72px;
 }
 .features-list {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 24px;
 }
 .features-items {
 }
@@ -14,6 +26,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .ftrs-txt {
   font-family: 'Roboto', sans-serif;
