@@ -10,6 +10,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-web {
   font-family: 'Raleway', sans-serif;
@@ -19,9 +21,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
-  display: inline-block;
-  margin-left: 15px;
 }
 .footer-txt {
   font-family: 'Roboto', sans-serif;
@@ -30,9 +29,5 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-left: 15px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
   max-width: 264px;
 }
